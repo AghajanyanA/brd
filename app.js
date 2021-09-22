@@ -17,7 +17,7 @@ for (let i = 0; i < squareCount; i++) {
 function setColor(element) {
     const random = Math.floor(Math.random()*(999-100+1)+100);
     element.style.backgroundColor = `#${random}`
-    element.style.boxShadow = `0 0 2px ${random}, 0 0 10px ${random}`
+    element.style.boxShadow = `0 0 2px #${random}, 0 0 15px #${random}`
 }
 
 function removeColor(element) {
